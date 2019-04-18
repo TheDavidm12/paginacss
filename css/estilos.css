@@ -1,0 +1,433 @@
+
+/*Estructura Pagina*/
+body{
+	background-image:url('../images/fondo.jpg');
+	background-attachment:fixed;
+}
+
+#estructura{
+	width:1200px;
+	height:1200px;
+	margin:0px auto;
+}
+#estructurab{
+	width:1200px;
+	min-height:1200px;
+	float:left;
+	background-color:orange;
+}
+#cabecera{
+	width:1200px;
+	height:300px;
+	background-color:white;
+	float:left;
+}
+#logo{
+	width:300px;
+	height:300px;
+	background-image:url('../images/logo.jpeg');
+	float:left;
+}
+#eslogan {
+	width:900px;
+	height:300px;
+	float:left;
+	background-image:url('../images/banner.jpg');
+	position:relative;
+}
+#botonera{
+	width:1200px;
+	height:100px;
+	background-color:black;
+	float:left;
+}
+#contenido{
+	width:1200px;
+	min-height:750px;
+	float:left;
+}
+#grande{
+	width:800px;
+	min-height:750px;
+	background-color:darkorange;
+	float:left;
+}
+#pequeno{
+	width:400px;
+	min-height:750px;
+	background-color:orange;
+	float:left;
+}
+#pie{
+	width:1200px;
+	min-height:50px;
+	background-color:black;
+	float:left;
+}
+table{
+	width:400px;
+	height:100px;
+}
+/*Galeria*/
+#pista{
+	width:800px;
+	min-height:1170px;
+	background-image:url('../images/pista.png');
+	position:relative;
+}
+#jugador1{
+	width:100px;
+	height:100px;
+	background-color:lime;
+	position:absolute;
+	top:30px;
+	left:70px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador2{
+	width:100px;
+	height:100px;
+	background-color:blue;
+	position:absolute;
+	top:45px;
+	left:90px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador3{
+	width:100px;
+	height:100px;
+	background-color:purple;
+	position:absolute;
+	top:60px;
+	left:110px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador4{
+	width:100px;
+	height:100px;
+	background-color:red;
+	position:absolute;
+	top:75px;
+	left:130px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador5{
+	width:100px;
+	height:100px;
+	background-color:green;
+	position:absolute;
+	top:50px;
+	left:350px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador6{
+	width:100px;
+	height:100px;
+	background-color:indigo;
+	position:absolute;
+	top:50px;
+	left:600px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador7{
+	width:100px;
+	height:100px;
+	background-color:cyan;
+	position:absolute;
+	top:215px;
+	left:70px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador8{
+	width:100px;
+	height:100px;
+	background-color:pink;
+	position:absolute;
+	top:230px;
+	left:90px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador9{
+	width:100px;
+	height:100px;
+	background-color:cyan;
+	position:absolute;
+	top:215px;
+	left:600px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador10{
+	width:100px;
+	height:100px;
+	background-color:pink;
+	position:absolute;
+	top:230px;
+	left:620px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador11{
+	width:100px;
+	height:100px;
+	background-color:pink;
+	position:absolute;
+	top:230px;
+	left:350px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador12{
+	width:100px;
+	height:100px;
+	background-color:cyan;
+	position:absolute;
+	top:245px;
+	left:380px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+iframe.galeria{
+	width:300px;
+	height:700px;
+	position:absolute;
+	top:400px;
+	left:250px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+#jugador1:hover{
+	z-index:1;
+}
+#jugador2:hover{
+	z-index:2;
+}
+#jugador3:hover{
+	z-index:3;
+}
+#jugador4:hover{
+	z-index:4;
+}
+#jugador7:hover{
+	z-index:1;
+}
+#jugador9:hover{
+	z-index:3;
+}#jugador11:hover{
+	z-index:1;
+}
+span.posiciones{
+	margin-left:25px;
+	margin-right:25px;
+	text-shadow:2px 2px 2px orange;
+}
+
+
+
+
+
+
+	/*Textos*/
+
+h1,h2{
+	text-align:center;
+	font-size:50px;
+	text-decoration:underline;
+	font-family: 'Merienda One', cursive;
+	/*font-family: 'Shojumaru', cursive;*/
+	text-shadow:3px 3px 2px orange;
+}
+p.haikyuu{
+	text-align:center;
+	font-size:25px;
+}
+span.haikyuu{
+	text-shadow:3px 3px 2px orange;
+	font-weight:bolder;
+}
+hr{
+	background-color:black;
+	height:5px;
+	border:2px solid black;
+}
+span.exclusivo{
+	color:white;
+	font-style:italic;
+}
+#logo:hover{
+	opacity:0.8;
+}
+#retorno{
+	
+	width:100px;
+	height:100px;
+	position:fixed;
+	right:5px;
+	bottom:5px;
+	
+}
+#balon {
+	width:60px;
+	height:60px;
+}
+#equipos{
+	height:300px;
+	width:300px;
+	display:block;
+	margin:auto;
+	border:2px solid ;
+	box-shadow:2px 2px 2px;
+	margin-bottom:50px;
+}
+p.argumento{
+	font-size:25px;
+	margin-left:10px;
+}
+#juego{
+	width:300px;
+	box-shadow:2px 2px 2px black;
+	
+}
+#videojuego{
+	width:300px;
+	height:315px;
+	margin-left:46px;
+	box-shadow:2px 2px 2px black;
+	border:2px solid;
+}
+#juegos{
+	width:300px;
+	margin-left:46px;
+	box-shadow:2px 2px 2px black;
+	background-image:url("../images/haikyuujuego2.jpg");
+	background-repeat:no-repeat;
+	box-shadow:2px 2px 2px black;
+	border:2px solid;
+}
+#juegos > #juego:hover{
+	opacity:0;
+}
+a{
+	text-decoration: none;
+}
+#manga,#anime{
+	width:700px;
+	margin-left:50px;
+	border:2px solid;
+	box-shadow:2px 2px 2px;
+}
+p.recursos{
+	text-align:center;
+	font-size:30px;
+	text-shadow:2px 2px 2px black;
+}
+
+/*Enviar*/
+
+#suscripcion,#suscripcion2{
+	text-align:center;
+	
+}
+/*Menu*/
+ul.nav{
+	font-family:sans-serif;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.nav > li {
+	float:left;
+}
+.nav li a {
+	background-color:black;
+	color:orange;
+	display:block;
+	width:300px;
+	height:100px;
+	text-align:center;
+	text-decoration:none;
+	border:1px solid darkorange;
+	box-sizing:border-box;
+	padding:30px;
+	font-size:30px;
+}
+.nav li a:hover {
+	background-color:darkorange;
+	color:black;
+	border:1px solid ;
+}
+#nombre{
+	text-align:center;
+	color:white;
+	font-size:30px;
+}
+#marquee{
+	position:absolute;
+	height:50px;
+	width:150px;
+	top:50px;
+	color:white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight:bolder;
+	font-size:30px;
+}
+#marquee2{
+	height:50px;
+	width:750px;
+	position:absolute;
+	top:100px;
+	left:135px;
+	color:white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight:bolder;
+	font-size:30px;
+	
+}
+#marquee3{
+	position:absolute;
+	height:50px;
+	width:150px;
+	top:150;
+	color:white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight:bolder;
+	font-size:30px;
+}
+#marquee4{
+	height:50px;
+	width:750px;
+	position:absolute;
+	top:200px;
+	left:100px;
+	color:white;
+	font-family: 'Permanent Marker', cursive;
+	font-weight:bolder;
+	
+}
+#fly{
+	height:70px;
+	width:150px;
+}
+/*Tooltip*/
+#oculto{
+	width:250px;
+	height:40px;
+	background-color:darkorange;
+	display:none;
+	margin-left:20px;
+}
+#tool:hover + #oculto{
+	display:block;
+}
+
+
+
+
